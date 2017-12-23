@@ -35,7 +35,7 @@ import com.sun.media.jai.codec.JPEGEncodeParam;
 import com.sun.image.codec.jpeg.JPEGQTable;
 import com.sun.image.codec.jpeg.JPEGDecodeParam;
 import com.sun.media.jai.codecimpl.ImagingListenerProxy;
-import com.sun.media.jai.codecimpl.util.ImagingException;
+import javax.media.jai.util.ImagingException;
 
 /**
  * An ImageEncoder for the JPEG (JFIF) file format.
