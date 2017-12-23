@@ -60,7 +60,7 @@ public class SampleModelState extends SerializableStateImpl {
             MultiPixelPackedSampleModel.class,
             SinglePixelPackedSampleModel.class,
             ComponentSampleModelJAI.class,
-            com.sun.media.jai.codecimpl.util.ComponentSampleModelJAI.class
+            javax.media.jai.ComponentSampleModelJAI.class
         };
     }
 
