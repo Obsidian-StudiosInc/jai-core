@@ -47,14 +47,14 @@ import com.sun.media.jai.codec.SeekableStream;
 import com.sun.media.jai.codec.TIFFDecodeParam;
 import com.sun.media.jai.codec.TIFFDirectory;
 import com.sun.media.jai.codec.TIFFField;
-import com.sun.media.jai.codecimpl.util.DataBufferFloat;
-import com.sun.media.jai.codecimpl.util.FloatDoubleColorModel;
-import com.sun.media.jai.codecimpl.util.RasterFactory;
+import javax.media.jai.DataBufferFloat;
+import javax.media.jai.FloatDoubleColorModel;
+import javax.media.jai.RasterFactory;
 import com.sun.image.codec.jpeg.JPEGCodec;
 import com.sun.image.codec.jpeg.JPEGDecodeParam;
 import com.sun.image.codec.jpeg.JPEGImageDecoder;
 import com.sun.media.jai.codecimpl.ImagingListenerProxy;
-import com.sun.media.jai.codecimpl.util.ImagingException;
+import javax.media.jai.util.ImagingException;
 import com.sun.media.jai.util.SimpleCMYKColorSpace;
 
 public class TIFFImage extends SimpleRenderedImage {
