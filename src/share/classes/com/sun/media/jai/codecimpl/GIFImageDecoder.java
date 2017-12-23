@@ -33,7 +33,7 @@ import com.sun.media.jai.codec.ImageDecodeParam;
 import com.sun.media.jai.codec.ImageDecoderImpl;
 import com.sun.media.jai.codec.SeekableStream;
 import com.sun.media.jai.codecimpl.ImagingListenerProxy;
-import com.sun.media.jai.codecimpl.util.ImagingException;
+import javax.media.jai.util.ImagingException;
 
 /**
  * @since EA3
