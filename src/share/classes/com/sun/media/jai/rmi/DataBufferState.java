@@ -62,8 +62,8 @@ public class DataBufferState extends SerializableStateImpl {
                 J2DDataBufferClasses[1],
                 javax.media.jai.DataBufferFloat.class,
                 javax.media.jai.DataBufferDouble.class,
-                com.sun.media.jai.codecimpl.util.DataBufferFloat.class,
-                com.sun.media.jai.codecimpl.util.DataBufferDouble.class
+                javax.media.jai.DataBufferFloat.class,
+                javax.media.jai.DataBufferDouble.class
             };
         } else {
             // Java 2 pre-1.4.0.
@@ -74,8 +74,8 @@ public class DataBufferState extends SerializableStateImpl {
                 DataBufferInt.class,
                 javax.media.jai.DataBufferFloat.class,
                 javax.media.jai.DataBufferDouble.class,
-                com.sun.media.jai.codecimpl.util.DataBufferFloat.class,
-                com.sun.media.jai.codecimpl.util.DataBufferDouble.class
+                javax.media.jai.DataBufferFloat.class,
+                javax.media.jai.DataBufferDouble.class
             };
         }
 
