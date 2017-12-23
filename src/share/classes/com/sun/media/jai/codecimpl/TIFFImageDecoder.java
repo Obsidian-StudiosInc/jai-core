@@ -38,7 +38,7 @@ import com.sun.media.jai.codec.SeekableStream;
 import com.sun.media.jai.codec.TIFFDecodeParam;
 import com.sun.media.jai.codec.TIFFDirectory;
 import com.sun.media.jai.codec.TIFFField;
-import com.sun.media.jai.codecimpl.util.RasterFactory;
+import javax.media.jai.RasterFactory;
 
 /**
  * A baseline TIFF reader. The reader has some functionality in addition to 
