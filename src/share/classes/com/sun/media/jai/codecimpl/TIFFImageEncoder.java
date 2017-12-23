@@ -41,7 +41,7 @@ import com.sun.media.jai.codec.JPEGEncodeParam;
 import com.sun.media.jai.codec.SeekableOutputStream;
 import com.sun.media.jai.codec.TIFFEncodeParam;
 import com.sun.media.jai.codec.TIFFField;
-import com.sun.media.jai.codecimpl.util.RasterFactory;
+import javax.media.jai.RasterFactory;
 
 /**
  * A baseline TIFF writer. The writer outputs TIFF images in either Bilevel,
