@@ -174,7 +174,7 @@ public class ColorModelState extends SerializableStateImpl {
             FloatDoubleColorModel.class,
             IndexColorModel.class,
             DirectColorModel.class,
-            com.sun.media.jai.codecimpl.util.FloatDoubleColorModel.class
+            javax.media.jai.FloatDoubleColorModel.class
         };
     }
 
