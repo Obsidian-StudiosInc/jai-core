@@ -21,7 +21,7 @@ import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.Vector;
-import com.sun.media.jai.codecimpl.util.RasterFactory;
+import javax.media.jai.RasterFactory;
 
 /**
  * A simple class implemented the <code>RenderedImage</code>
