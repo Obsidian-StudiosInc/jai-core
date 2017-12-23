@@ -30,14 +30,14 @@ import com.sun.media.jai.codec.ImageCodec;
 import com.sun.media.jai.codec.FPXDecodeParam;
 import com.sun.media.jai.codec.SeekableStream;
 import com.sun.media.jai.codecimpl.SimpleRenderedImage;
-import com.sun.media.jai.codecimpl.util.RasterFactory;
+import javax.media.jai.RasterFactory;
 
 import com.sun.image.codec.jpeg.JPEGCodec;
 import com.sun.image.codec.jpeg.JPEGDecodeParam;
 import com.sun.image.codec.jpeg.JPEGEncodeParam;
 import com.sun.image.codec.jpeg.JPEGImageDecoder;
 import com.sun.media.jai.codecimpl.ImagingListenerProxy;
-import com.sun.media.jai.codecimpl.util.ImagingException;
+import javax.media.jai.util.ImagingException;
 
 public class FPXImage extends SimpleRenderedImage {
 
