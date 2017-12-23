@@ -36,8 +36,8 @@ import com.sun.media.jai.codec.ImageDecoder;
 import com.sun.media.jai.codec.ImageDecoderImpl;
 import com.sun.media.jai.codec.ImageDecodeParam;
 import com.sun.media.jai.codecimpl.ImagingListenerProxy;
-import com.sun.media.jai.codecimpl.util.ImagingException;
-import com.sun.media.jai.codecimpl.util.RasterFactory;
+import javax.media.jai.util.ImagingException;
+import javax.media.jai.RasterFactory;
 
 /**
  * @since EA2
