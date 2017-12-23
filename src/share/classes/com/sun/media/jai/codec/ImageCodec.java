@@ -35,7 +35,7 @@ import com.sun.media.jai.codecimpl.PNMCodec;
 import com.sun.media.jai.codecimpl.TIFFCodec;
 import com.sun.media.jai.codecimpl.WBMPCodec;
 import com.sun.media.jai.codecimpl.ImagingListenerProxy;
-import com.sun.media.jai.codecimpl.util.FloatDoubleColorModel;
+import javax.media.jai.FloatDoubleColorModel;
 import com.sun.media.jai.util.SimpleCMYKColorSpace;
 
 /**
