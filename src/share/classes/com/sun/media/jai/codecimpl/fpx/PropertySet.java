@@ -16,7 +16,7 @@ import java.util.Date;
 import java.util.Hashtable;
 import com.sun.media.jai.codec.SeekableStream;
 import com.sun.media.jai.codecimpl.ImagingListenerProxy;
-import com.sun.media.jai.codecimpl.util.ImagingException;
+import javax.media.jai.util.ImagingException;
 
 class Property {
 
